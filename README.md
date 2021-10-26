@@ -17,7 +17,7 @@ docker run -e PASSWORD=<password> --rm -v $(pwd):/home/rstudio/work -p 8787:8787
  - Once the Rstudio is running connect to it by visiting
 https://localhost:8787 in your browser. Login with username `rstudio` and the password you entered `<password>`.
 
- - Type `runApp('./shiny_treemap')` in RStudio to start the shiny interactive app.
+ - Type `shiny::runApp('/home/rstudio/work/shiny_treemap.R')` in RStudio to start the shiny interactive app. Then the interactive plot will be show in a pop-up.
 
 ## Appendix:
 **Dataset link and reference:**
