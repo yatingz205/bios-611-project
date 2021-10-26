@@ -8,7 +8,7 @@ and occupation by the **Standard Occupational Classification (SOC) System**.
 ## Instruction:
  - Build the image for this project by typing: 
 ```
-docker build .-t pj
+docker build . -t pj
 ```
  - Then start RStudio by typing:
 ```
