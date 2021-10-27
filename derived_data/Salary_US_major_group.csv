@@ -1,0 +1,430 @@
+"","PRIM_STATE","AREA_TYPE","NAICS","NAICS_TITLE","OCC_CODE","OCC_TITLE","O_GROUP","TOT_EMP","EMP_PRSE","H_MEAN","A_MEAN","MEAN_PRSE"
+"1","US","1","11","Agriculture","11-0000","Management","major",8770,9.6,49.46,102880,6.2
+"2","US","1","11","Agriculture","13-0000","Finance","major",2400,10.9,31.29,65080,3.9
+"3","US","1","11","Agriculture","15-0000","CS and Math","major",440,13.9,36.97,76900,4.6
+"4","US","1","11","Agriculture","17-0000","Architecture and Engineering","major",140,26.2,33.64,69970,4.1
+"5","US","1","11","Agriculture","19-0000","Science","major",3570,12.6,29.51,61390,5.4
+"6","US","1","11","Agriculture","25-0000","Education","major",480,17.4,17.19,35750,4.8
+"7","US","1","11","Agriculture","27-0000","Arts","major",90,21.1,23.81,49520,5.2
+"8","US","1","11","Agriculture","29-0000","Healthcare Practitioners","major",100,27.8,36.64,76210,10.7
+"9","US","1","11","Agriculture","31-0000","Healthcare Support","major",60,39.6,13.4,27880,15.1
+"10","US","1","11","Agriculture","33-0000","Protective Service","major",450,10.4,16.05,33380,2.5
+"11","US","1","11","Agriculture","35-0000","Food","major",70,27.1,16.22,33740,8.7
+"12","US","1","11","Agriculture","37-0000","Building","major",4770,10,18.01,37450,6.1
+"13","US","1","11","Agriculture","39-0000","Personal Care","major",5740,5.7,18.15,37750,3.6
+"14","US","1","11","Agriculture","41-0000","Sales","major",2870,8.6,32.72,68060,3.7
+"15","US","1","11","Agriculture","43-0000","Administry","major",19380,3.6,18.67,38830,1.1
+"16","US","1","11","Agriculture","45-0000","Farming","major",319700,1.6,15.6,32450,0.6
+"17","US","1","11","Agriculture","47-0000","Install","major",880,29.1,21.94,45640,5
+"18","US","1","11","Agriculture","49-0000","Maintenance","major",8870,4.2,21.31,44320,1.3
+"19","US","1","11","Agriculture","51-0000","Production","major",9540,7,17.15,35680,1.6
+"20","US","1","11","Agriculture","53-0000","Transportation","major",41610,4.4,18,37450,1.3
+"21","US","1","21","Traditional Energy","11-0000","Management","major",37320,2.3,68.52,142510,1.3
+"22","US","1","21","Traditional Energy","13-0000","Finance","major",29100,3.2,43.02,89470,1.3
+"23","US","1","21","Traditional Energy","15-0000","CS and Math","major",11800,8.6,54.24,112830,3.6
+"24","US","1","21","Traditional Energy","17-0000","Architecture and Engineering","major",29250,3.7,54.91,114220,1.6
+"25","US","1","21","Traditional Energy","19-0000","Science","major",15350,4,44.44,92430,2.5
+"26","US","1","21","Traditional Energy","23-0000","Legal","major",2430,11.9,50.39,104810,4.1
+"27","US","1","21","Traditional Energy","27-0000","Arts","major",470,8.8,38.43,79940,3.4
+"28","US","1","21","Traditional Energy","29-0000","Healthcare Practitioners","major",170,11.9,42.95,89340,14.9
+"29","US","1","21","Traditional Energy","33-0000","Protective Service","major",1140,11.9,18.72,38940,3.7
+"30","US","1","21","Traditional Energy","35-0000","Food","major",130,14.8,15.99,33260,5.4
+"31","US","1","21","Traditional Energy","37-0000","Building","major",850,9.8,16.24,33790,3.3
+"32","US","1","21","Traditional Energy","39-0000","Personal Care","major",30,17.7,21.92,45600,9.6
+"33","US","1","21","Traditional Energy","41-0000","Sales","major",10320,5.6,44.71,93000,2.5
+"34","US","1","21","Traditional Energy","43-0000","Administry","major",42770,2,21.96,45670,0.8
+"35","US","1","21","Traditional Energy","45-0000","Farming","major",120,20.7,21.63,45000,6.8
+"36","US","1","21","Traditional Energy","47-0000","Install","major",235230,1.4,25.77,53610,0.5
+"37","US","1","21","Traditional Energy","49-0000","Maintenance","major",51370,2.5,29.03,60370,0.7
+"38","US","1","21","Traditional Energy","51-0000","Production","major",39160,3.1,28.2,58660,1.2
+"39","US","1","21","Traditional Energy","53-0000","Transportation","major",71870,2.4,25.1,52200,0.8
+"40","US","1","22","Utilities","11-0000","Management","major",42320,2.2,68.82,143140,1
+"41","US","1","22","Utilities","13-0000","Finance","major",49180,2.6,44.36,92260,1.1
+"42","US","1","22","Utilities","15-0000","CS and Math","major",17390,3.2,46.21,96110,1.2
+"43","US","1","22","Utilities","17-0000","Architecture and Engineering","major",50700,3,47.81,99450,1
+"44","US","1","22","Utilities","19-0000","Science","major",10210,3.9,42.71,88840,0.9
+"45","US","1","22","Utilities","23-0000","Legal","major",1540,8.5,71.89,149520,3.5
+"46","US","1","22","Utilities","25-0000","Education","major",110,18.4,43.84,91200,9.2
+"47","US","1","22","Utilities","27-0000","Arts","major",1940,4.5,41.08,85440,2.3
+"48","US","1","22","Utilities","29-0000","Healthcare Practitioners","major",120,12.7,40.52,84290,3
+"49","US","1","22","Utilities","33-0000","Protective Service","major",5770,7.5,28.36,58990,3.1
+"50","US","1","22","Utilities","35-0000","Food","major",50,37.9,14.37,29890,12.2
+"51","US","1","22","Utilities","37-0000","Building","major",2260,5.5,21.34,44380,2
+"52","US","1","22","Utilities","41-0000","Sales","major",8020,5.5,39.1,81320,2.4
+"53","US","1","22","Utilities","43-0000","Administry","major",82710,1.9,27.03,56230,1
+"54","US","1","22","Utilities","45-0000","Farming","major",300,20.1,20.56,42760,4.6
+"55","US","1","22","Utilities","47-0000","Install","major",32410,2.7,34.45,71660,0.9
+"56","US","1","22","Utilities","49-0000","Maintenance","major",148400,1.6,38.61,80310,0.5
+"57","US","1","22","Utilities","51-0000","Production","major",77430,1.9,38.32,79710,0.7
+"58","US","1","22","Utilities","53-0000","Transportation","major",10380,4.5,28.31,58870,1.5
+"59","US","1","23","Construction","11-0000","Management","major",499240,0.8,55.42,115280,0.4
+"60","US","1","23","Construction","13-0000","Finance","major",311680,0.9,37.8,78620,0.4
+"61","US","1","23","Construction","15-0000","CS and Math","major",18420,3.6,37.38,77750,1.1
+"62","US","1","23","Construction","17-0000","Architecture and Engineering","major",92920,1.8,38.09,79220,0.7
+"63","US","1","23","Construction","19-0000","Science","major",15890,2,35.64,74140,0.6
+"64","US","1","23","Construction","21-0000","Social Service","major",320,38.5,19.62,40800,5.7
+"65","US","1","23","Construction","23-0000","Legal","major",2240,8.3,63.5,132070,2.5
+"66","US","1","23","Construction","25-0000","Education","major",100,17.4,26.69,55520,4.2
+"67","US","1","23","Construction","27-0000","Arts","major",10560,6.9,27.87,57960,1.6
+"68","US","1","23","Construction","29-0000","Healthcare Practitioners","major",70,20.3,31.52,65550,5
+"69","US","1","23","Construction","31-0000","Healthcare Support","major",70,27,14.02,29160,5.5
+"70","US","1","23","Construction","33-0000","Protective Service","major",6770,7.4,18.63,38740,2.4
+"71","US","1","23","Construction","35-0000","Food","major",1160,11.9,14.06,29250,2.9
+"72","US","1","23","Construction","37-0000","Building","major",38970,5.2,17.5,36410,1.3
+"73","US","1","23","Construction","39-0000","Personal Care","major",750,13.9,15.3,31820,3.7
+"74","US","1","23","Construction","41-0000","Sales","major",158620,1.6,34.44,71620,0.9
+"75","US","1","23","Construction","43-0000","Administry","major",664870,0.6,20.71,43080,0.2
+"76","US","1","23","Construction","45-0000","Farming","major",910,19.9,17.22,35820,4
+"77","US","1","23","Construction","47-0000","Install","major",4442560,0.3,25.99,54070,0.2
+"78","US","1","23","Construction","49-0000","Maintenance","major",656840,1,25.83,53730,0.4
+"79","US","1","23","Construction","51-0000","Production","major",129220,2,23.85,49600,0.6
+"80","US","1","23","Construction","53-0000","Transportation","major",234760,1.2,23.12,48100,0.6
+"81","US","1","42","Wholesale Trade","11-0000","Management","major",452740,0.7,65.72,136700,0.4
+"82","US","1","42","Wholesale Trade","13-0000","Finance","major",322750,1,36.2,75290,0.4
+"83","US","1","42","Wholesale Trade","15-0000","CS and Math","major",170650,1.8,42.96,89360,0.7
+"84","US","1","42","Wholesale Trade","17-0000","Architecture and Engineering","major",64360,3,42.32,88030,1
+"85","US","1","42","Wholesale Trade","19-0000","Science","major",19660,4,38.13,79310,1.7
+"86","US","1","42","Wholesale Trade","21-0000","Social Service","major",670,17.8,37.06,77080,8.6
+"87","US","1","42","Wholesale Trade","23-0000","Legal","major",4130,5,67.34,140080,2.3
+"88","US","1","42","Wholesale Trade","25-0000","Education","major",1160,15.8,25.61,53280,5.4
+"89","US","1","42","Wholesale Trade","27-0000","Arts","major",76590,2.3,25.71,53480,1.3
+"90","US","1","42","Wholesale Trade","29-0000","Healthcare Practitioners","major",29620,4.5,32.8,68220,1.6
+"91","US","1","42","Wholesale Trade","31-0000","Healthcare Support","major",1880,17.1,19.52,40590,2.9
+"92","US","1","42","Wholesale Trade","33-0000","Protective Service","major",3290,6,19.21,39950,2.1
+"93","US","1","42","Wholesale Trade","35-0000","Food","major",8410,8.9,14.96,31120,1.6
+"94","US","1","42","Wholesale Trade","37-0000","Building","major",25690,3.6,15.91,33090,0.7
+"95","US","1","42","Wholesale Trade","39-0000","Personal Care","major",1450,19,17.62,36650,7.6
+"96","US","1","42","Wholesale Trade","41-0000","Sales","major",1291480,0.6,35.43,73690,0.4
+"97","US","1","42","Wholesale Trade","43-0000","Administry","major",969440,0.6,21.08,43840,0.3
+"98","US","1","42","Wholesale Trade","45-0000","Farming","major",43520,3.9,15.7,32650,1
+"99","US","1","42","Wholesale Trade","47-0000","Install","major",35850,5.2,25.94,53950,2.2
+"100","US","1","42","Wholesale Trade","49-0000","Maintenance","major",394180,1,25.32,52660,0.3
+"101","US","1","42","Wholesale Trade","51-0000","Production","major",317450,1.6,19.54,40640,0.5
+"102","US","1","42","Wholesale Trade","53-0000","Transportation","major",1404170,0.6,18.81,39120,0.2
+"103","US","1","51","Information","11-0000","Management","major",250950,1.4,79.2,164740,0.7
+"104","US","1","51","Information","13-0000","Finance","major",274690,1.6,43.7,90900,1.4
+"105","US","1","51","Information","15-0000","CS and Math","major",610480,1.4,50.25,104520,2.8
+"106","US","1","51","Information","17-0000","Architecture and Engineering","major",43010,3.7,50.86,105780,2
+"107","US","1","51","Information","19-0000","Science","major",3200,5.6,43.73,90960,2.2
+"108","US","1","51","Information","21-0000","Social Service","major",900,22.1,29.18,60690,8.4
+"109","US","1","51","Information","23-0000","Legal","major",10770,4.4,72.45,150700,2.9
+"110","US","1","51","Information","25-0000","Education","major",32830,26.2,27.46,57120,3.3
+"111","US","1","51","Information","27-0000","Arts","major",435230,2.4,36.65,76230,1.7
+"112","US","1","51","Information","29-0000","Healthcare Practitioners","major",2750,14.5,37.66,78340,5
+"113","US","1","51","Information","31-0000","Healthcare Support","major",340,30.4,19.05,39620,7.4
+"114","US","1","51","Information","33-0000","Protective Service","major",5290,14.7,22.88,47580,4.1
+"115","US","1","51","Information","35-0000","Food","major",35580,3.8,12.98,26990,1.2
+"116","US","1","51","Information","37-0000","Building","major",6540,13.1,16.67,34680,3.6
+"117","US","1","51","Information","39-0000","Personal Care","major",47790,3.3,15.98,33250,3
+"118","US","1","51","Information","41-0000","Sales","major",301190,2,35.61,74080,0.9
+"119","US","1","51","Information","43-0000","Administry","major",381190,1.5,22.56,46920,0.6
+"120","US","1","51","Information","47-0000","Install","major",12480,13.8,34.69,72150,3.4
+"121","US","1","51","Information","49-0000","Maintenance","major",243580,2,31.73,66000,0.7
+"122","US","1","51","Information","51-0000","Production","major",22450,3.9,21.23,44150,1.1
+"123","US","1","51","Information","53-0000","Transportation","major",40200,6.7,19.83,41240,4.2
+"124","US","1","52","Finance","11-0000","Management","major",553970,0.7,75.81,157690,0.5
+"125","US","1","52","Finance","13-0000","Finance","major",1600830,0.6,42.64,88690,0.5
+"126","US","1","52","Finance","15-0000","CS and Math","major",448890,1.4,48.84,101590,0.6
+"127","US","1","52","Finance","17-0000","Architecture and Engineering","major",2900,9.2,54.7,113770,3.2
+"128","US","1","52","Finance","19-0000","Science","major",3390,5.7,48.49,100860,4.6
+"129","US","1","52","Finance","21-0000","Social Service","major",15220,6.5,29.41,61180,0.9
+"130","US","1","52","Finance","23-0000","Legal","major",58480,2.4,57.29,119170,1.6
+"131","US","1","52","Finance","25-0000","Education","major",760,13.9,29.93,62250,5.7
+"132","US","1","52","Finance","27-0000","Arts","major",19080,2.1,36.73,76400,1.1
+"133","US","1","52","Finance","29-0000","Healthcare Practitioners","major",61010,4.3,38.2,79450,0.9
+"134","US","1","52","Finance","31-0000","Healthcare Support","major",2390,20.5,20.52,42690,2.1
+"135","US","1","52","Finance","33-0000","Protective Service","major",9170,5.7,26.82,55780,1.9
+"136","US","1","52","Finance","35-0000","Food","major",1270,12.3,18.72,38930,3.2
+"137","US","1","52","Finance","37-0000","Building","major",7250,9.1,15.4,32020,3
+"138","US","1","52","Finance","39-0000","Personal Care","major",450,15.4,17.24,35850,4.1
+"139","US","1","52","Finance","41-0000","Sales","major",943430,0.8,38.8,80710,0.9
+"140","US","1","52","Finance","43-0000","Administry","major",2238700,0.7,21.05,43780,0.2
+"141","US","1","52","Finance","45-0000","Farming","major",260,41.7,18,37450,4.1
+"142","US","1","52","Finance","47-0000","Install","major",1320,17.6,31.78,66110,9.6
+"143","US","1","52","Finance","49-0000","Maintenance","major",11200,3.4,24.54,51030,1.1
+"144","US","1","52","Finance","51-0000","Production","major",1830,11.7,25.35,52720,3.9
+"145","US","1","52","Finance","53-0000","Transportation","major",3950,13.4,25.9,53880,3.9
+"146","US","1","53","Real Estate","11-0000","Management","major",305910,1.2,45.21,94040,1
+"147","US","1","53","Real Estate","13-0000","Finance","major",143810,2.2,35.68,74220,1.1
+"148","US","1","53","Real Estate","15-0000","CS and Math","major",16680,5,42.14,87640,1.6
+"149","US","1","53","Real Estate","17-0000","Architecture and Engineering","major",5010,8.7,41.55,86420,2.9
+"150","US","1","53","Real Estate","19-0000","Science","major",1130,22.1,36.7,76340,3.5
+"151","US","1","53","Real Estate","21-0000","Social Service","major",2870,16.3,21.09,43860,4.7
+"152","US","1","53","Real Estate","23-0000","Legal","major",7810,8.5,49.52,103010,4.1
+"153","US","1","53","Real Estate","25-0000","Education","major",320,30,25.41,52850,7.6
+"154","US","1","53","Real Estate","27-0000","Arts","major",20310,5.4,26.04,54160,2.1
+"155","US","1","53","Real Estate","29-0000","Healthcare Practitioners","major",3740,7.7,29.62,61610,5.1
+"156","US","1","53","Real Estate","33-0000","Protective Service","major",27680,7.9,19.88,41340,2.5
+"157","US","1","53","Real Estate","35-0000","Food","major",21470,6.3,13.96,29030,1.6
+"158","US","1","53","Real Estate","37-0000","Building","major",123150,2.5,16.27,33840,1
+"159","US","1","53","Real Estate","39-0000","Personal Care","major",23140,5.5,16.05,33380,1.9
+"160","US","1","53","Real Estate","41-0000","Sales","major",446860,1.1,23.69,49270,1.1
+"161","US","1","53","Real Estate","43-0000","Administry","major",426180,1.2,19.5,40560,0.5
+"162","US","1","53","Real Estate","45-0000","Farming","major",1120,23.2,17.79,36990,4.5
+"163","US","1","53","Real Estate","47-0000","Install","major",29910,4.7,25.78,53620,1.6
+"164","US","1","53","Real Estate","49-0000","Maintenance","major",418730,1.2,21.49,44700,0.4
+"165","US","1","53","Real Estate","51-0000","Production","major",14970,9.1,20.29,42200,2.3
+"166","US","1","53","Real Estate","53-0000","Transportation","major",135730,2,17.67,36750,0.7
+"167","US","1","54","Scientific and Techincal","11-0000","Management","major",989260,0.7,78.65,163580,0.4
+"168","US","1","54","Scientific and Techincal","13-0000","Finance","major",1592410,0.7,41.71,86760,0.4
+"169","US","1","54","Scientific and Techincal","15-0000","CS and Math","major",1671170,0.6,47.99,99810,0.4
+"170","US","1","54","Scientific and Techincal","17-0000","Architecture and Engineering","major",930560,0.9,42.63,88670,0.5
+"171","US","1","54","Scientific and Techincal","19-0000","Science","major",366140,2,40.6,84450,1
+"172","US","1","54","Scientific and Techincal","21-0000","Social Service","major",12440,5.9,26.66,55440,1.8
+"173","US","1","54","Scientific and Techincal","23-0000","Legal","major",719650,0.6,54.19,112720,1
+"174","US","1","54","Scientific and Techincal","25-0000","Education","major",13670,4.9,33.89,70480,3
+"175","US","1","54","Scientific and Techincal","27-0000","Arts","major",347890,1.4,33.42,69510,0.9
+"176","US","1","54","Scientific and Techincal","29-0000","Healthcare Practitioners","major",222090,1.4,32.22,67010,0.9
+"177","US","1","54","Scientific and Techincal","31-0000","Healthcare Support","major",101940,2.4,14.86,30910,0.6
+"178","US","1","54","Scientific and Techincal","33-0000","Protective Service","major",15950,5.1,26.06,54200,3.7
+"179","US","1","54","Scientific and Techincal","35-0000","Food","major",6600,15.6,14.04,29210,3.8
+"180","US","1","54","Scientific and Techincal","37-0000","Building","major",30480,5,16.25,33800,1.5
+"181","US","1","54","Scientific and Techincal","39-0000","Personal Care","major",38530,3.7,13.37,27820,1
+"182","US","1","54","Scientific and Techincal","41-0000","Sales","major",409930,1.3,39.29,81720,0.9
+"183","US","1","54","Scientific and Techincal","43-0000","Administry","major",1556250,0.7,21.8,45350,0.3
+"184","US","1","54","Scientific and Techincal","45-0000","Farming","major",3560,11.4,19.44,40440,3.6
+"185","US","1","54","Scientific and Techincal","47-0000","Install","major",82840,2.6,30.13,62660,0.9
+"186","US","1","54","Scientific and Techincal","49-0000","Maintenance","major",75530,2.9,26.57,55260,0.7
+"187","US","1","54","Scientific and Techincal","51-0000","Production","major",132460,2.1,23.62,49120,1
+"188","US","1","54","Scientific and Techincal","53-0000","Transportation","major",89970,2.7,19.7,40980,0.9
+"189","US","1","55","Enterprise Management","11-0000","Management","major",473740,0.9,74.96,155910,0.5
+"190","US","1","55","Enterprise Management","13-0000","Finance","major",563420,1,40.34,83910,0.4
+"191","US","1","55","Enterprise Management","15-0000","CS and Math","major",292920,1.6,46.6,96930,0.5
+"192","US","1","55","Enterprise Management","17-0000","Architecture and Engineering","major",74260,5,51.02,106130,1.9
+"193","US","1","55","Enterprise Management","19-0000","Science","major",25520,4.7,50.89,105860,3
+"194","US","1","55","Enterprise Management","21-0000","Social Service","major",24400,4.7,24.86,51710,1.4
+"195","US","1","55","Enterprise Management","23-0000","Legal","major",29310,3.5,73.28,152410,1.4
+"196","US","1","55","Enterprise Management","25-0000","Education","major",8760,12,25.01,52020,5.1
+"197","US","1","55","Enterprise Management","27-0000","Arts","major",44560,2.2,36.4,75720,0.9
+"198","US","1","55","Enterprise Management","29-0000","Healthcare Practitioners","major",51810,4.5,37.39,77780,1.5
+"199","US","1","55","Enterprise Management","31-0000","Healthcare Support","major",19190,11.9,16.94,35240,1.2
+"200","US","1","55","Enterprise Management","33-0000","Protective Service","major",10230,5.6,24.27,50480,1.7
+"201","US","1","55","Enterprise Management","35-0000","Food","major",13840,8.6,18.33,38130,2.6
+"202","US","1","55","Enterprise Management","37-0000","Building","major",8000,5.4,15.54,32320,1.1
+"203","US","1","55","Enterprise Management","39-0000","Personal Care","major",8370,10.2,18.84,39190,5
+"204","US","1","55","Enterprise Management","41-0000","Sales","major",106940,2.4,38.32,79710,1.2
+"205","US","1","55","Enterprise Management","43-0000","Administry","major",531150,1,23.07,47980,0.3
+"206","US","1","55","Enterprise Management","45-0000","Farming","major",1340,13.6,20.14,41900,5.2
+"207","US","1","55","Enterprise Management","47-0000","Install","major",10110,7.9,32.67,67940,3.6
+"208","US","1","55","Enterprise Management","49-0000","Maintenance","major",43190,3.1,27.52,57240,1.1
+"209","US","1","55","Enterprise Management","51-0000","Production","major",27120,3.6,26.44,54990,2.7
+"210","US","1","55","Enterprise Management","53-0000","Transportation","major",53860,4,20.6,42860,1.7
+"211","US","1","56","Support","11-0000","Management","major",318770,1,58.51,121710,0.6
+"212","US","1","56","Support","13-0000","Finance","major",433650,1,34.95,72700,0.5
+"213","US","1","56","Support","15-0000","CS and Math","major",219510,1.9,42.45,88300,0.7
+"214","US","1","56","Support","17-0000","Architecture and Engineering","major",69680,3.5,39.91,83010,1.1
+"215","US","1","56","Support","19-0000","Science","major",32490,4.5,33.43,69540,1.8
+"216","US","1","56","Support","21-0000","Social Service","major",18300,6.5,22.62,47050,2.3
+"217","US","1","56","Support","23-0000","Legal","major",15710,6.6,46.02,95730,3.2
+"218","US","1","56","Support","27-0000","Arts","major",54230,3.1,30.34,63100,2
+"219","US","1","56","Support","29-0000","Healthcare Practitioners","major",149380,2.7,34.13,71000,1
+"220","US","1","56","Support","31-0000","Healthcare Support","major",129370,3.7,15.82,32900,1.2
+"221","US","1","56","Support","33-0000","Protective Service","major",822330,1.5,16.56,34450,0.7
+"222","US","1","56","Support","35-0000","Food","major",85560,3.3,14.24,29610,1
+"223","US","1","56","Support","37-0000","Building","major",1886670,0.5,15.88,33030,0.4
+"224","US","1","56","Support","39-0000","Personal Care","major",54070,5.5,14.71,30600,1.3
+"225","US","1","56","Support","41-0000","Sales","major",399700,1.4,24.04,50010,0.7
+"226","US","1","56","Support","43-0000","Administry","major",1574880,0.7,18.46,38390,0.2
+"227","US","1","56","Support","45-0000","Farming","major",17180,7.3,16.19,33670,2.2
+"228","US","1","56","Support","47-0000","Install","major",264080,1.9,22.84,47510,0.8
+"229","US","1","56","Support","49-0000","Maintenance","major",239610,1.8,23.46,48800,0.5
+"230","US","1","56","Support","51-0000","Production","major",645690,1.4,16.11,33500,0.4
+"231","US","1","56","Support","53-0000","Transportation","major",1168470,1.1,16.13,33560,0.4
+"232","US","1","61","Education","11-0000","Management","major",669680,0.6,52.7,109620,0.4
+"233","US","1","61","Education","13-0000","Finance","major",343500,1.5,32.91,68460,0.6
+"234","US","1","61","Education","15-0000","CS and Math","major",228600,1.6,33.92,70550,0.6
+"235","US","1","61","Education","17-0000","Architecture and Engineering","major",21610,5.7,36.96,76870,2.4
+"236","US","1","61","Education","19-0000","Science","major",178440,2.4,32.97,68580,1
+"237","US","1","61","Education","21-0000","Social Service","major",370500,0.9,29.71,61800,0.5
+"238","US","1","61","Education","23-0000","Legal","major",5740,2.6,61.3,127510,1.7
+"239","US","1","61","Education","25-0000","Education","major",7492180,0.4,29.75,61870,0.5
+"240","US","1","61","Education","27-0000","Arts","major",255720,1.4,24.98,51950,0.7
+"241","US","1","61","Education","29-0000","Healthcare Practitioners","major",280780,1.5,35.7,74250,1.2
+"242","US","1","61","Education","31-0000","Healthcare Support","major",49230,2.5,19.04,39600,1.3
+"243","US","1","61","Education","33-0000","Protective Service","major",172660,1.5,19.11,39740,0.8
+"244","US","1","61","Education","35-0000","Food","major",373350,0.9,14.04,29210,0.5
+"245","US","1","61","Education","37-0000","Building","major",439320,0.8,16.9,35160,0.4
+"246","US","1","61","Education","39-0000","Personal Care","major",217760,2,15.96,33190,0.7
+"247","US","1","61","Education","41-0000","Sales","major",35300,2.2,23.14,48130,1.6
+"248","US","1","61","Education","43-0000","Administry","major",1144510,0.6,20.02,41640,0.4
+"249","US","1","61","Education","45-0000","Farming","major",3000,11.6,18.48,38430,1.5
+"250","US","1","61","Education","47-0000","Install","major",40080,2.8,28.01,58260,1.1
+"251","US","1","61","Education","49-0000","Maintenance","major",160460,1,23.69,49280,0.5
+"252","US","1","61","Education","51-0000","Production","major",15100,1.9,25.41,52840,1.8
+"253","US","1","61","Education","53-0000","Transportation","major",243450,1.8,17.65,36700,0.7
+"254","US","1","62","Health and Social Care","11-0000","Management","major",770230,0.6,50.85,105760,0.4
+"255","US","1","62","Health and Social Care","13-0000","Finance","major",396220,1,31.37,65250,0.5
+"256","US","1","62","Health and Social Care","15-0000","CS and Math","major",138190,1.5,38.18,79400,0.5
+"257","US","1","62","Health and Social Care","17-0000","Architecture and Engineering","major",4610,3.6,38.66,80420,1.1
+"258","US","1","62","Health and Social Care","19-0000","Science","major",121680,2,42.82,89070,1.2
+"259","US","1","62","Health and Social Care","21-0000","Social Service","major",1157560,0.8,22.89,47620,0.3
+"260","US","1","62","Health and Social Care","23-0000","Legal","major",6990,5.1,49.28,102490,2.4
+"261","US","1","62","Health and Social Care","25-0000","Education","major",492140,1.2,18.13,37710,2
+"262","US","1","62","Health and Social Care","27-0000","Arts","major",38530,1.9,27.12,56410,0.7
+"263","US","1","62","Health and Social Care","29-0000","Healthcare Practitioners","major",6771690,0.4,42.68,88770,0.3
+"264","US","1","62","Health and Social Care","31-0000","Healthcare Support","major",5889540,0.4,15.36,31950,0.2
+"265","US","1","62","Health and Social Care","33-0000","Protective Service","major",78420,1.3,19,39510,0.5
+"266","US","1","62","Health and Social Care","35-0000","Food","major",524590,0.8,14.34,29820,0.2
+"267","US","1","62","Health and Social Care","37-0000","Building","major",415600,0.8,14.62,30420,0.3
+"268","US","1","62","Health and Social Care","39-0000","Personal Care","major",596870,1.4,14.57,30300,0.5
+"269","US","1","62","Health and Social Care","41-0000","Sales","major",67420,2.4,22.5,46800,1.3
+"270","US","1","62","Health and Social Care","43-0000","Administry","major",2685000,0.4,19.25,40050,0.2
+"271","US","1","62","Health and Social Care","45-0000","Farming","major",3150,14.6,14.89,30960,3.8
+"272","US","1","62","Health and Social Care","47-0000","Install","major",19540,2.4,27.78,57780,0.7
+"273","US","1","62","Health and Social Care","49-0000","Maintenance","major",152490,1,22.62,47050,0.4
+"274","US","1","62","Health and Social Care","51-0000","Production","major",80000,1.7,16.46,34230,0.7
+"275","US","1","62","Health and Social Care","53-0000","Transportation","major",158630,1.3,16.18,33660,0.7
+"276","US","1","71","Arts","11-0000","Management","major",85700,1.4,49.22,102380,0.7
+"277","US","1","71","Arts","13-0000","Finance","major",71250,2,33.45,69570,3.7
+"278","US","1","71","Arts","15-0000","CS and Math","major",9320,5,36.12,75140,1.9
+"279","US","1","71","Arts","17-0000","Architecture and Engineering","major",1140,7.9,42.51,88430,2.8
+"280","US","1","71","Arts","19-0000","Science","major",2510,6.8,29.63,61640,2.4
+"281","US","1","71","Arts","21-0000","Social Service","major",1500,10.5,20.59,42820,3.5
+"282","US","1","71","Arts","23-0000","Legal","major",630,7.1,75.98,158030,3
+"283","US","1","71","Arts","25-0000","Education","major",43170,3.1,23.65,49200,1.4
+"284","US","1","71","Arts","27-0000","Arts","major",160810,1.8,31.18,64860,1.5
+"285","US","1","71","Arts","29-0000","Healthcare Practitioners","major",5410,6.9,27.16,56500,3.1
+"286","US","1","71","Arts","31-0000","Healthcare Support","major",3500,9.3,21.06,43810,3.5
+"287","US","1","71","Arts","33-0000","Protective Service","major",79530,3.2,15.26,31730,0.8
+"288","US","1","71","Arts","35-0000","Food","major",263120,2.2,14.01,29130,0.6
+"289","US","1","71","Arts","37-0000","Building","major",136670,1.3,15.16,31530,0.4
+"290","US","1","71","Arts","39-0000","Personal Care","major",545870,1.4,16.44,34200,0.6
+"291","US","1","71","Arts","41-0000","Sales","major",131610,2.2,16.01,33290,0.8
+"292","US","1","71","Arts","43-0000","Administry","major",182600,1.4,16.95,35260,0.6
+"293","US","1","71","Arts","45-0000","Farming","major",2350,16.8,15.84,32940,2.2
+"294","US","1","71","Arts","47-0000","Install","major",7720,4.3,28.07,58380,2.9
+"295","US","1","71","Arts","49-0000","Maintenance","major",67720,1.9,20.81,43280,0.8
+"296","US","1","71","Arts","51-0000","Production","major",5900,6.3,19.42,40390,2.4
+"297","US","1","71","Arts","53-0000","Transportation","major",50090,3,18.17,37780,1.4
+"298","US","1","72","Food","11-0000","Management","major",312110,1.1,34.25,71250,0.7
+"299","US","1","72","Food","13-0000","Finance","major",55060,2.6,26.58,55280,1.3
+"300","US","1","72","Food","15-0000","CS and Math","major",3910,5.2,31.21,64920,1.3
+"301","US","1","72","Food","17-0000","Architecture and Engineering","major",490,10.5,31.41,65340,4.7
+"302","US","1","72","Food","19-0000","Science","major",220,12.3,27.95,58130,3.3
+"303","US","1","72","Food","21-0000","Social Service","major",260,20.1,18.29,38030,5.5
+"304","US","1","72","Food","23-0000","Legal","major",140,13.3,59.8,124370,8.9
+"305","US","1","72","Food","25-0000","Education","major",2460,12.5,19.23,40000,3.6
+"306","US","1","72","Food","27-0000","Arts","major",12110,5.3,22.69,47190,2.6
+"307","US","1","72","Food","29-0000","Healthcare Practitioners","major",4430,10.3,29.47,61290,2.9
+"308","US","1","72","Food","31-0000","Healthcare Support","major",7310,4.1,20.64,42930,2.1
+"309","US","1","72","Food","33-0000","Protective Service","major",55310,2.8,16.73,34790,0.9
+"310","US","1","72","Food","35-0000","Food","major",9142960,0.2,13.1,27260,0.2
+"311","US","1","72","Food","37-0000","Building","major",476650,0.8,13.85,28810,0.5
+"312","US","1","72","Food","39-0000","Personal Care","major",123340,2.5,15.24,31700,0.7
+"313","US","1","72","Food","41-0000","Sales","major",394250,2.2,13.13,27310,0.6
+"314","US","1","72","Food","43-0000","Administry","major",373090,1,15.44,32120,0.4
+"315","US","1","72","Food","45-0000","Farming","major",900,11.6,16.34,33980,2.4
+"316","US","1","72","Food","47-0000","Install","major",3820,4,25.32,52660,1.5
+"317","US","1","72","Food","49-0000","Maintenance","major",112200,1.5,18.89,39300,0.8
+"318","US","1","72","Food","51-0000","Production","major",85320,3.3,14.3,29750,0.9
+"319","US","1","72","Food","53-0000","Transportation","major",273300,3.1,13,27040,0.8
+"320","US","1","81","Other","11-0000","Management","major",244200,0.8,54.04,112400,0.6
+"321","US","1","81","Other","13-0000","Finance","major",264390,0.9,33.97,70650,0.6
+"322","US","1","81","Other","15-0000","CS and Math","major",39010,2.4,38.45,79970,0.9
+"323","US","1","81","Other","17-0000","Architecture and Engineering","major",9870,5,38.44,79950,1.4
+"324","US","1","81","Other","19-0000","Science","major",15130,4.2,35.82,74500,1.7
+"325","US","1","81","Other","21-0000","Social Service","major",107570,1.5,22.92,47670,0.8
+"326","US","1","81","Other","23-0000","Legal","major",10330,4.1,58.4,121480,1.9
+"327","US","1","81","Other","25-0000","Education","major",66460,2.8,22.41,46620,3.2
+"328","US","1","81","Other","27-0000","Arts","major",84340,1.8,32.93,68500,1.2
+"329","US","1","81","Other","29-0000","Healthcare Practitioners","major",13000,5.4,32.12,66820,2.7
+"330","US","1","81","Other","31-0000","Healthcare Support","major",57980,4.4,19.54,40650,1.7
+"331","US","1","81","Other","33-0000","Protective Service","major",36620,2.7,15.52,32270,1.3
+"332","US","1","81","Other","35-0000","Food","major",69480,2.2,13.3,27660,0.8
+"333","US","1","81","Other","37-0000","Building","major",78670,2,15.39,32010,0.6
+"334","US","1","81","Other","39-0000","Personal Care","major",692770,0.7,16.19,33680,0.4
+"335","US","1","81","Other","41-0000","Sales","major",166150,1.6,19.81,41210,0.7
+"336","US","1","81","Other","43-0000","Administry","major",509400,0.7,18.5,38490,0.3
+"337","US","1","81","Other","45-0000","Farming","major",2430,14.9,18.69,38880,3.2
+"338","US","1","81","Other","47-0000","Install","major",14960,5.9,26.18,54450,2.7
+"339","US","1","81","Other","49-0000","Maintenance","major",649410,0.6,22.71,47230,0.3
+"340","US","1","81","Other","51-0000","Production","major",241340,1.1,16.78,34900,0.5
+"341","US","1","81","Other","53-0000","Transportation","major",368580,1.2,15.11,31430,0.5
+"342","US","1","99","Government","11-0000","Management","major",615370,0.3,51.66,107460,0.4
+"343","US","1","99","Government","13-0000","Finance","major",1093050,0.2,38.08,79220,0.3
+"344","US","1","99","Government","15-0000","CS and Math","major",270930,0.4,43.01,89460,0.3
+"345","US","1","99","Government","17-0000","Architecture and Engineering","major",286350,0.3,44.62,92810,0.3
+"346","US","1","99","Government","19-0000","Science","major",326080,0.3,36.85,76640,0.3
+"347","US","1","99","Government","21-0000","Social Service","major",516700,0.8,27.09,56350,0.8
+"348","US","1","99","Government","23-0000","Legal","major",266910,0.3,49.36,102680,0.6
+"349","US","1","99","Government","25-0000","Education","major",214420,1.2,25.01,52020,0.4
+"350","US","1","99","Government","27-0000","Arts","major",77470,0.6,32.24,67070,0.5
+"351","US","1","99","Government","29-0000","Healthcare Practitioners","major",443500,0.5,43.44,90350,0.5
+"352","US","1","99","Government","31-0000","Healthcare Support","major",138700,0.8,18.2,37860,0.4
+"353","US","1","99","Government","33-0000","Protective Service","major",1909600,0.3,30.89,64240,0.6
+"354","US","1","99","Government","35-0000","Food","major",69480,1.4,16.66,34650,0.4
+"355","US","1","99","Government","37-0000","Building","major",214510,0.8,18.31,38090,0.7
+"356","US","1","99","Government","39-0000","Personal Care","major",221650,1,16.19,33680,0.5
+"357","US","1","99","Government","41-0000","Sales","major",55870,1.4,20.45,42540,0.9
+"358","US","1","99","Government","43-0000","Administry","major",1551110,0.3,21.68,45090,0.3
+"359","US","1","99","Government","45-0000","Farming","major",21970,1.1,20.91,43490,0.6
+"360","US","1","99","Government","47-0000","Install","major",437810,0.4,25.36,52740,0.5
+"361","US","1","99","Government","49-0000","Maintenance","major",400680,0.5,27.21,56600,0.5
+"362","US","1","99","Government","51-0000","Production","major",167560,0.8,28.08,58420,0.4
+"363","US","1","99","Government","53-0000","Transportation","major",383640,1.5,26.47,55060,0.9
+"364","US","1","31-33","Manufacture","11-0000","Management","major",695250,1,66.86,139060,0.6
+"365","US","1","31-33","Manufacture","13-0000","Finance","major",531470,0.9,38.3,79660,0.8
+"366","US","1","31-33","Manufacture","15-0000","CS and Math","major",310740,3.5,51.5,107120,2.6
+"367","US","1","31-33","Manufacture","17-0000","Architecture and Engineering","major",796960,0.9,43.43,90330,0.5
+"368","US","1","31-33","Manufacture","19-0000","Science","major",145800,2,36.14,75170,1
+"369","US","1","31-33","Manufacture","21-0000","Social Service","major",300,10.1,25.53,53110,2.8
+"370","US","1","31-33","Manufacture","23-0000","Legal","major",7210,4,77.49,161180,1.9
+"371","US","1","31-33","Manufacture","25-0000","Education","major",530,6.4,30.95,64380,3.7
+"372","US","1","31-33","Manufacture","27-0000","Arts","major",85050,1.7,28.49,59250,0.8
+"373","US","1","31-33","Manufacture","29-0000","Healthcare Practitioners","major",10760,4.9,37.01,76970,1.8
+"374","US","1","31-33","Manufacture","31-0000","Healthcare Support","major",1110,16.3,19.5,40570,2.6
+"375","US","1","31-33","Manufacture","33-0000","Protective Service","major",12660,2.1,22.46,46720,1.7
+"376","US","1","31-33","Manufacture","35-0000","Food","major",80650,2.7,14.06,29240,0.6
+"377","US","1","31-33","Manufacture","37-0000","Building","major",67960,2.2,15.63,32510,0.5
+"378","US","1","31-33","Manufacture","39-0000","Personal Care","major",1180,6.8,16.93,35210,2.5
+"379","US","1","31-33","Manufacture","41-0000","Sales","major",397250,1.4,34.49,71740,1.2
+"380","US","1","31-33","Manufacture","43-0000","Administry","major",970200,0.4,21.51,44740,0.2
+"381","US","1","31-33","Manufacture","45-0000","Farming","major",33020,3.2,16.45,34210,0.8
+"382","US","1","31-33","Manufacture","47-0000","Install","major",193810,1.4,25.35,52720,0.6
+"383","US","1","31-33","Manufacture","49-0000","Maintenance","major",623780,0.7,26.96,56080,0.3
+"384","US","1","31-33","Manufacture","51-0000","Production","major",6070410,0.4,20.19,41990,0.2
+"385","US","1","31-33","Manufacture","53-0000","Transportation","major",1069850,0.6,18.18,37810,0.2
+"386","US","1","44-45","Retail Trade","11-0000","Management","major",432330,1.9,48.81,101530,1.5
+"387","US","1","44-45","Retail Trade","13-0000","Finance","major",180570,1.6,31.97,66500,1.7
+"388","US","1","44-45","Retail Trade","15-0000","CS and Math","major",66600,9.4,47.73,99270,7.6
+"389","US","1","44-45","Retail Trade","17-0000","Architecture and Engineering","major",3810,6.6,37.29,77560,2.2
+"390","US","1","44-45","Retail Trade","19-0000","Science","major",1080,11.2,28.31,58890,3.6
+"391","US","1","44-45","Retail Trade","21-0000","Social Service","major",1380,17.5,22,45760,4.7
+"392","US","1","44-45","Retail Trade","23-0000","Legal","major",2800,6.3,34.86,72520,4.3
+"393","US","1","44-45","Retail Trade","25-0000","Education","major",9540,8.4,18.43,38340,3
+"394","US","1","44-45","Retail Trade","27-0000","Arts","major",127610,2,19.75,41070,1.8
+"395","US","1","44-45","Retail Trade","29-0000","Healthcare Practitioners","major",527130,0.9,32.53,67670,0.7
+"396","US","1","44-45","Retail Trade","31-0000","Healthcare Support","major",36070,4.3,14.62,30410,1.2
+"397","US","1","44-45","Retail Trade","33-0000","Protective Service","major",57050,2.8,17.93,37300,0.5
+"398","US","1","44-45","Retail Trade","35-0000","Food","major",557270,1.5,13.71,28510,0.4
+"399","US","1","44-45","Retail Trade","37-0000","Building","major",93500,1.5,13.8,28700,0.4
+"400","US","1","44-45","Retail Trade","39-0000","Personal Care","major",104400,3.5,14.21,29560,0.9
+"401","US","1","44-45","Retail Trade","41-0000","Sales","major",7716800,0.3,15.38,31980,0.2
+"402","US","1","44-45","Retail Trade","43-0000","Administry","major",1270130,0.8,17.42,36230,0.2
+"403","US","1","44-45","Retail Trade","45-0000","Farming","major",20890,7.5,15.33,31880,1.2
+"404","US","1","44-45","Retail Trade","47-0000","Install","major",36480,5.2,22.61,47040,1.6
+"405","US","1","44-45","Retail Trade","49-0000","Maintenance","major",702210,0.8,21.71,45160,0.3
+"406","US","1","44-45","Retail Trade","51-0000","Production","major",358540,1.6,17.13,35630,0.4
+"407","US","1","44-45","Retail Trade","53-0000","Transportation","major",2401390,0.6,14.45,30050,0.2
+"408","US","1","48-49","Transport","11-0000","Management","major",189440,1.1,54.58,113520,0.7
+"409","US","1","48-49","Transport","13-0000","Finance","major",128060,1.6,34.09,70900,0.6
+"410","US","1","48-49","Transport","15-0000","CS and Math","major",42060,3.3,39.9,82990,1.5
+"411","US","1","48-49","Transport","17-0000","Architecture and Engineering","major",27400,2.4,41.8,86940,1
+"412","US","1","48-49","Transport","19-0000","Science","major",8570,3.3,32.86,68340,1
+"413","US","1","48-49","Transport","21-0000","Social Service","major",160,14.2,26.33,54770,17.3
+"414","US","1","48-49","Transport","23-0000","Legal","major",1920,5,64.94,135080,1.7
+"415","US","1","48-49","Transport","25-0000","Education","major",1140,10.8,24.51,50970,3.5
+"416","US","1","48-49","Transport","27-0000","Arts","major",4910,7.4,27.14,56450,2.1
+"417","US","1","48-49","Transport","29-0000","Healthcare Practitioners","major",1640,21.7,21.69,45120,4.8
+"418","US","1","48-49","Transport","31-0000","Healthcare Support","major",190,29.5,13.41,27890,3.8
+"419","US","1","48-49","Transport","33-0000","Protective Service","major",41270,3.8,18.89,39290,1.2
+"420","US","1","48-49","Transport","35-0000","Food","major",7820,8.9,16.89,35130,3.1
+"421","US","1","48-49","Transport","37-0000","Building","major",32840,1.7,21.63,44980,0.7
+"422","US","1","48-49","Transport","39-0000","Personal Care","major",12170,5.8,14.99,31190,1.8
+"423","US","1","48-49","Transport","41-0000","Sales","major",76310,3.1,30.93,64330,1.3
+"424","US","1","48-49","Transport","43-0000","Administry","major",1374810,0.5,22.9,47640,0.2
+"425","US","1","48-49","Transport","45-0000","Farming","major",3020,22.7,16.88,35110,4.9
+"426","US","1","48-49","Transport","47-0000","Install","major",35940,5.5,29.39,61120,1.6
+"427","US","1","48-49","Transport","49-0000","Maintenance","major",326480,1.3,28.95,60220,0.7
+"428","US","1","48-49","Transport","51-0000","Production","major",77930,3.2,25.1,52210,1.4
+"429","US","1","48-49","Transport","53-0000","Transportation","major",3959440,0.6,23.02,47880,0.8
