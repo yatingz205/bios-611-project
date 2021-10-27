@@ -4,7 +4,7 @@ library(ggplot2)
 library(shiny)
 select <- dplyr::select
 
-source("load_data.R")
+OCC.NAICS <- read_csv("./source_data/all_data_M_2020.csv")
 
 
 # Define Treemap function==================================================

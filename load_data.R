@@ -9,7 +9,7 @@ select <- dplyr::select
 
 d <- read_csv("./source_data/all_data_M_2020.csv",
               col_types = cols(.default = "c")) %>%
-  filter(!is.na(AREA_TYPE) & AREA_TYPE == "1") %>%
+  filter(!is.na(AREA_TYPE) & AREA_TYPE %in% c("1","2")) %>%
   select(PRIM_STATE, AREA_TYPE, NAICS, NAICS_TITLE,
          OCC_CODE, OCC_TITLE, O_GROUP,
          TOT_EMP, EMP_PRSE, H_MEAN, A_MEAN, MEAN_PRSE)
@@ -35,27 +35,9 @@ to_numeric <- function(s){
     as.numeric();
 }
 
-d.nona <- d %>% na.omit() %>% mutate(across(c(TOT_EMP, EMP_PRSE, H_MEAN, A_MEAN, MEAN_PRSE), to_numeric))
+d.nona <- d %>% na.omit() %>%
+  mutate(across(c(TOT_EMP, EMP_PRSE, H_MEAN, A_MEAN, MEAN_PRSE), to_numeric))
 print(paste0(nrow(d) - nrow(d.nona), " rows are removed after removing rows that contain NAs"))
-
-
-# Select Data of Interest =========================================================
-d.us <- d.nona
-
-# Check the 23 SOC major groups (https://www.bls.gov/soc/)
-OCC.d <- d.us %>% filter(O_GROUP == "major") %>%
-  group_by(OCC_CODE, OCC_TITLE) %>% tally() %>% arrange(OCC_CODE)
-# the o_group structure is major - minor - broad - detailed, each latter one is a more detailed categorization of the former one
-# All data is included expect data for military specific occupation.
-
-# Check the 20 NAICS sectors (https://siccode.com/page/structure-of-naics-codes)
-NAICS.d <- d.us %>%
-  filter(nchar(NAICS) == 2 | NAICS %in% c("31-33", "44-45", "48-49")) %>%
-  group_by(NAICS, NAICS_TITLE) %>% tally() %>% arrange(NAICS)
-
-OCC.NAICS <- d.us %>%
-  filter(OCC_CODE %in% (OCC.d %>% pull(OCC_CODE)) & NAICS %in% (NAICS.d %>% pull(NAICS)))
-
 
 # Create & Apply Label=============================================================
 create.OCC.Label <- function(s){
@@ -101,6 +83,38 @@ create.NAICS.Label <- function(s){
     str_trim();
 }
 
-OCC.NAICS <- OCC.NAICS %>%
+d.nona <- d.nona %>%
   mutate(across(NAICS_TITLE, create.NAICS.Label)) %>%
   mutate(across(OCC_TITLE, create.OCC.Label))
+
+# Select Data of Interest =========================================================
+d.us <- d.nona %>% filter(AREA_TYPE == "1")
+d.state <- d.nona %>% filter(AREA_TYPE == "2")
+
+
+# Check Completeness of data ======================================================
+# Check the 23 SOC major groups (https://www.bls.gov/soc/)
+OCC.d <- d.us %>% filter(O_GROUP == "major") %>%
+  group_by(OCC_CODE, OCC_TITLE) %>% tally() %>% arrange(OCC_CODE)
+# the o_group structure is major - minor - broad - detailed,
+# each latter one is a more detailed categorization of the former one
+# All data is included expect data for military specific occupation.
+
+# Check the 20 NAICS sectors (https://siccode.com/page/structure-of-naics-codes)
+NAICS.d <- d.us %>%
+  filter(nchar(NAICS) == 2 | NAICS %in% c("31-33", "44-45", "48-49")) %>%
+  group_by(NAICS, NAICS_TITLE) %>% tally() %>% arrange(NAICS)
+
+OCC.NAICS <- d.us %>%
+  filter(OCC_CODE %in% (OCC.d %>% pull(OCC_CODE)) & NAICS %in% (NAICS.d %>% pull(NAICS)))
+
+
+# Output derived dataset =========================================================
+write.csv(d.us, "./derived_data/Salary_US.csv")
+print(paste0("./derived_data/Salary_US.csv saved.", " #row: ", nrow(d.us)))
+
+write.csv(d.state, "./derived_data/Salary_State.csv")
+print(paste0("./derived_data/Salary_State.csv saved.", " #row: ", nrow(d.state)))
+
+write.csv(OCC.NAICS, "./derived_data/Salary_US_major_group.csv")
+print(paste0("./derived_data/Salary_US_major_group.csv saved.", " #row: ", nrow(OCC.NAICS)))
