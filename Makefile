@@ -8,7 +8,7 @@ clean:
 
 report.pdf:\
   report.Rmd\
-  figures/*.png 
+  figures/figure01.png 
 	Rscript -e "rmarkdown::render('report.Rmd',output_format='pdf_document')"
 
 figures/figure01.png\
@@ -16,7 +16,7 @@ figures/figure02.png:\
  exploratory_plots.R\
  derived_data/Salary_US_major_group.csv\
  derived_data/Salary_State.csv\
- source_data/US_State/cb_2018_us_state_500k.shp
+ source_data/US_State/*
 	Rscript exploratory_plots.R
 
 derived_data/Salary_US.csv\
