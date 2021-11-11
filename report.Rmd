@@ -1,0 +1,8 @@
+```{r, include=FALSE}
+library(knitr)
+```
+
+# Salary Distribution across Occupations in the U.S
+```{r, include=FALSE}
+knitr::include_graphics("./figures/figure01.png")
+```
