@@ -12,12 +12,14 @@ report.pdf:\
 	Rscript -e "rmarkdown::render('report.Rmd',output_format='pdf_document')"
 
 figures/figure01.png\
-figures/figure02.png:\
- exploratory_plots.R\
+figures/figure03.png\
+figures/figure04.png\
+figures/figure05.png:\
+ analysis.R\
  derived_data/Salary_US_major_group.csv\
  derived_data/Salary_State.csv\
  source_data/US_State/*
-	Rscript exploratory_plots.R
+	Rscript analysis.R
 
 derived_data/Salary_US.csv\
 derived_data/Salary_State.csv\
