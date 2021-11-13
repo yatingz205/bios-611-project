@@ -6,6 +6,7 @@ Industry is cagegorized by the **North American Industry Classification System (
 and occupation by the **Standard Occupational Classification (SOC) System**.
 
 ## Instruction:
+#### Build Environment
  - Build the image for this project by typing: 
 ```
 docker build . -t pj
@@ -17,12 +18,11 @@ docker run -e PASSWORD=<some_password> --rm -v $(pwd):/home/rstudio/ -p 8787:878
  - Once the Rstudio is running connect to it by visiting
 https://localhost:8787 in your browser. Log in with username `rstudio` and the password you entered after `PASSWORD=`.
 
-There are two shiny interactive apps for this project. `shiny_treemap.R` visualizes total employment and mean hourly wage within a selected sector, while `shiny_barplot.R` visualizes the two across states within a selected occupation. To start either one, type:
-```
-shiny::runApp('/home/rstudio/<name of the shiny script>')
-```
-in RStudio's terminal to start the shiny app. Then the interactive plot will be shown in a pop-up.
+#### Shiny App
+ - There are two shiny interactive apps for this project. `shiny_treemap.R` visualizes total employment and mean hourly wage within a selected sector, while `shiny_barplot.R` visualizes the two across states within a selected occupation. To start either one, type:
+`shiny::runApp('/home/rstudio/<name of the shiny script>')` in RStudio's terminal to start the shiny app. Then the interactive plot will be shown in a pop-up.
  
+#### Generate Results
  - Type `make report.pdf` in the terminal to create the final report.
 
 ## Appendix:
