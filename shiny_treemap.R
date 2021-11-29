@@ -105,7 +105,7 @@ server <- function(input, output) {
   })
 
   output$codeval <- renderText({
-    NAICS.d %>% filter(NAICS == input$code) %>% pull(NAICS_TITLE)
+    OCC.NAICS %>% filter(NAICS == input$code) %>% distinct(NAICS_TITLE) %>% pull()
   })
 
   output$outtb <- renderDataTable({

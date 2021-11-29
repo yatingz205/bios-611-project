@@ -87,10 +87,19 @@ d.nona <- d.nona %>%
   mutate(across(NAICS_TITLE, create.NAICS.Label)) %>%
   mutate(across(OCC_TITLE, create.OCC.Label))
 
-# Select Data of Interest =========================================================
+# Select Data of Interest ========================================================
 d.us <- d.nona %>% filter(AREA_TYPE == "1")
 d.state <- d.nona %>% filter(AREA_TYPE == "2")
 
+OCC.of.interest <- c("15-1210", "15-1220", "15-1230", "15-1240",
+                     "15-1250", "15-2020", "15-2030", "15-2040",
+                     "15-2050", "17-2060", "19-1040")
+
+d.broad.selected <- d.nona %>% filter(OCC_CODE %in% OCC.of.interest) %>%
+  group_by(OCC_TITLE) %>% summarise(TOT_EMP = sum(TOT_EMP),
+                                    H_MEAN = mean(H_MEAN),
+                                    A_MEAN = mean(A_MEAN)) %>%
+  arrange(desc(H_MEAN))
 
 # Check Completeness of data ======================================================
 # Check the 23 SOC major groups (https://www.bls.gov/soc/)
@@ -118,3 +127,6 @@ print(paste0("./derived_data/Salary_State.csv saved.", " #row: ", nrow(d.state))
 
 write.csv(OCC.NAICS, "./derived_data/Salary_US_major_group.csv")
 print(paste0("./derived_data/Salary_US_major_group.csv saved.", " #row: ", nrow(OCC.NAICS)))
+
+write.csv(d.broad.selected, "./derived_data/DS_broad_group.csv")
+print(paste0("./derived_data/DS_broad_group.csv saved.", " #row: ", nrow(d.broad.selected)))
