@@ -1,13 +1,13 @@
 # bios-611-project
 
 ## Overview:
-This project investigates employment and salary data in the United States in 2020, where Industry is cagegorized by the **North American Industry Classification System (NAICS)** and occupation by the **Standard Occupational Classification (SOC) System**. Our primary data source is from U.S. BUREAU OF LABOR STATISTICS.
+This project investigates the labor market in the United States in 2020, where Industry is cagegorized by the **North American Industry Classification System (NAICS)** and occupation by the **Standard Occupational Classification (SOC) System**. Our primary data source is from U.S. BUREAU OF LABOR STATISTICS and our parameters of interest are total employment and mean hourly wage.
 
 There are four sections of analysis centered around our parameter of interest:
- - First section: we categorize our data by industry according to the NAICS and analyze the distribution of hourly wage within each industry. 
- - Second section: we categorize our data based on the six-digit 2018 SOC code. 
- - Third section: we group the data by state and focus on the spatial pattern of total employment and income level across states. 
- - Fourth section: we combine employment data with estimated automation probability score (Frey & Osborne, 2017) and investigate the relationship between salary, employment, and the predicted chance of automation across occupations.
+ -- First section: we categorize our data by industry according to the NAICS and analyze the distribution of hourly wage within each industry. 
+ -- Second section: we categorize our data based on the six-digit 2018 SOC code. 
+ -- Third section: we group the data by state and focus on the spatial pattern of total employment and income level across states. 
+ -- Fourth section: we combine employment data with estimated automation probability score (Frey & Osborne, 2017) and investigate the relationship between salary, employment, and the predicted chance of automation across occupations.
 
 ## Instruction:
 #### Build Environment
