@@ -1,9 +1,8 @@
 # bios-611-project
 
 ## Overview:
-This project investigates employment and salary data in the United States by industry and occupation, where
-Industry is cagegorized by the **North American Industry Classification System (NAICS)**
-and occupation by the **Standard Occupational Classification (SOC) System**.
+This project investigates employment and salary data in the United States in 2020, where Industry is cagegorized by the **North American Industry Classification System (NAICS)** and occupation by the **Standard Occupational Classification (SOC) System**. 
+There are four sections of analysis centered around our parameter of interest. In the first section, we categorize our data by industry according to the North American Industry Classification System (NAICS) and analyze the distribution of hourly wage within each industry. In the second section, we categorize our data based on the six-digit 2018 Standard Occupational Classification (SOC) code. In the third section, we group the data by state and focus on the spatial pattern of total employment and income level across states. In the fourth section, we combine employment data with estimated automation probability score (Frey & Osborne, 2017) and investigate the relationship between salary, employment, and the predicted chance of automation across occupations.
 
 ## Instruction:
 #### Build Environment
@@ -24,6 +23,7 @@ https://localhost:8787 in your browser. Log in with username `rstudio` and the p
  
 #### Generate Results
  - Type `make report.pdf` in the terminal to create the final report.
+ - Each R script generates the figures for a particular section. If interested in the analysis in a particular section, run load_data.R first, and then the R script for that section.
 
 ## Appendix:
 **Dataset link and reference:**
