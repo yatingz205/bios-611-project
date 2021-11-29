@@ -1,4 +1,4 @@
-# bios-611-project
+# Labor Market of the United States in 2020
 
 ## Overview:
 This project investigates the labor market in the United States in 2020, where Industry is cagegorized by the **North American Industry Classification System (NAICS)** and occupation by the **Standard Occupational Classification (SOC) System**. Our primary data source is from U.S. BUREAU OF LABOR STATISTICS and our parameters of interest are total employment and mean hourly wage.
